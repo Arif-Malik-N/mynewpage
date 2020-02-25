@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#navigation{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(95, 117, 196);
+    position: absolute;
+  
+}
+.logo{
+    /* background-color: rgb(106, 205, 223); */
+    width: 20%;
+    padding: 0 30px;
+    height: 80px;
+}
+img{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    margin-top:-8px;
+    /* margin-left: 10px; */
+    position: relative;
+   
+}
+ul{
+    /* background-color: sandybrown; */
+    float: right;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    width: 60%;
+}
+li{
+   /* float: right;
+    display: inline;
+    position: relative; */
+
+
+    /* background-image: url("/images/banar-img.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px; */
+}
+#n{
+    height: 500px;
+    width: auto;
+    /* background-color:rgba(0,10,70,0.1); */
+    background: rgba(144, 233, 214, 0.3) url("images/banar-img.jpg");
+    background-position: center;
+    background-size:cover;
+    background-blend-mode: overlay;
+    color: white;
+    align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+h2{
+    text-align: center;
+    padding-top: 20px;
+    background-color:  rgb(113, 131, 196);
+}
+#product{
+    height: 400px;
+    width: auto;
+    display: flex;
+    padding-top: 20px;
+    background-color:  rgb(113, 131, 196);
+}
+.block{
+    display: block;
+}
+.product-details{
+    height: 350px;
+    width: 2800px;
+    display: block;
+    border: 2px solid gray;
+    border-radius: 10px;
+    margin-right: 15px;
+    margin-left: 15px;
+    text-align:center;
+    background-color: gray;
+    color: white;
+   
+   
+
+}
+.pro-img{
+    height: 250px;
+    width: auto;
+    /* padding-top: 10px; */
+    margin-top: 15px;
+}
+
+.form{
+    background:linear-gradient rgba(20,10.200,0)
+}
+#about{
+    height: ;
+
+}
